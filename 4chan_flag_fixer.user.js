@@ -5,23 +5,33 @@
 // @include     http*://boards.4chan.org/int/*
 // @include     http*://boards.4chan.org/sp/*
 // @include     http*://boards.4chan.org/pol/*
+// @include     http*://boards.4chan.org/bant/*
 // @include     http*://s.4cdn.org/image/country/*
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @version     1.37
+// @include     http*://boards.4chan.org/bant/catalog
+// @include     http*://boards.4channel.org/int/*
+// @include     http*://boards.4channel.org/sp/*
+// @include     http*://boards.4channel.org/pol/*
+// @include     http*://boards.4channel.org/bant/*
+// @exclude     http*://boards.4channel.org/int/catalog
+// @exclude     http*://boards.4channel.org/sp/catalog
+// @exclude     http*://boards.4channel.org/pol/catalog
+// @include     http*://boards.4channel.org/bant/catalog
+// @version     1.38
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_addStyle
 // @run-at      document-idle
-// @icon   		https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/extra/icon.png
-// @updateURL   https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
-// @downloadURL https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
+// @icon   		https://github.com/ebinBuddha/4chan-Flag-Fixer/raw/master/extra/icon.png
+// @updateURL   https://github.com/ebinBuddha/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
+// @downloadURL https://github.com/ebinBuddha/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
 // ==/UserScript==
 var flagOption = "fixed"; // Radio button; options are fixed, diverse, or official flags
 var flagOptionsVar = "fixerFlagOptions";
-var flagReplaceUrl = "https://raw.githubusercontent.com/flagzzzz/4chan-Flag-Fixer/master/";
+var flagReplaceUrl = "https://raw.githubusercontent.com/ebinBuddha/4chan-Flag-Fixer/master/";
 var nameSpace = "flagfixer.";
 
 var setup = {
@@ -29,7 +39,7 @@ var setup = {
         var htmlFixedStart = '<div>4chan Fixed Flags</div><br/>';
         var htmlSaveButton = '<div><button name="save" title="Pressing &#34;Save Preset&#34; will set your preset to whatever is selected">' +
             'Save Preset</button></div><br/>';
-		var helpText = '<label name="fixedflagslabel"><a href="https://github.com/flagzzzz/4chan-Flag-Fixer" style="color:blue">Click here</a> for a complete description of each preset.</label>';
+		var helpText = '<label name="fixedflagslabel"><a href="https://github.com/ebinBuddha/4chan-Flag-Fixer" style="color:blue">Click here</a> for a complete description of each preset.</label>';
         var filterRadio = '<br/><form id="filterRadio">' +
             '<input type="radio" name="filterRadio" id="filterRadiofixed" style="display: inline !important;" value="fixed"><label>Fixed: flags are updated and glossed</label>' +
             '<br/><input type="radio" name="filterRadio" id="filterRadiounofficial" style="display: inline !important;" value="unofficial"><label>Unofficial: use unofficial flags</label>' +
