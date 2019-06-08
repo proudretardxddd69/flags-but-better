@@ -10,7 +10,7 @@
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @include     http*://boards.4chan.org/bant/catalog
+// @exclude     http*://boards.4chan.org/bant/catalog
 // @include     http*://boards.4channel.org/int/*
 // @include     http*://boards.4channel.org/sp/*
 // @include     http*://boards.4channel.org/pol/*
@@ -18,8 +18,8 @@
 // @exclude     http*://boards.4channel.org/int/catalog
 // @exclude     http*://boards.4channel.org/sp/catalog
 // @exclude     http*://boards.4channel.org/pol/catalog
-// @include     http*://boards.4channel.org/bant/catalog
-// @version     1.38
+// @exclude     http*://boards.4channel.org/bant/catalog
+// @version     1.38.1
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
