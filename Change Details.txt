@@ -14,6 +14,7 @@ Fixed:
 -corrected the coloration of Uzbekistan
 -Antarctica now uses a popular flag
 -made the flag of the Vatican a square like Switzerland
+-updated Afghanistan Mauritania and Thailand
 
 Official:
 -same changes as Fixed
