@@ -15,6 +15,7 @@ Fixed:
 -Antarctica now uses a popular flag
 -made the flag of the Vatican a square like Switzerland
 -updated Afghanistan Mauritania and Thailand
+-changed Martinique to the newest unofficial flag
 
 Official:
 -same changes as Fixed
