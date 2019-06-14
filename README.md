@@ -5,13 +5,13 @@ You can see what changes the various presets make [here](https://raw.githubuserc
 
 ![Some modified flags](https://raw.githubusercontent.com/flagzzzz/4chan-Flag-Fixer/master/extra/Sample.jpg)
 
-##Installation
+## Installation
 1) Install TamperMonkey or ViolentMonkey if you are using Firefox, Chrome, Opera, Safari. Greasemonkey shouldn't work with versions 4.x+.
 
 2) Click [here](https://github.com/ebinBuddha/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js) to install the script.
 
 3) Set your preset using the User Script Commands menu in your browser
 
-##Other flag scripts
+## Other flag scripts
 [Regional flags- show your state/region/provinces flag if you want](https://gitlab.com/flagtism/Extra-Flags-for-4chan)<br/>
 [Flaggot- script which counts and displays which flags are in a thread](https://github.com/dnsev/flaggot)
