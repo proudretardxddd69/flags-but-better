@@ -1,4 +1,4 @@
-Fixed:
+﻿Fixed:
 -Removed the yellow dot from US flag
 -darkened the blue on the French flag
 -tweaked Libya to be more consistent with the other flags
@@ -16,6 +16,7 @@ Fixed:
 -made the flag of the Vatican a square like Switzerland
 -updated Afghanistan Mauritania and Thailand
 -changed Martinique to the newest unofficial flag
+-added the Kosovo flag >>>/qa/2866150
 
 Official:
 -same changes as Fixed

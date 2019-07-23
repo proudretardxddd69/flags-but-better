@@ -19,7 +19,7 @@
 // @exclude     http*://boards.4channel.org/sp/catalog
 // @exclude     http*://boards.4channel.org/pol/catalog
 // @exclude     http*://boards.4channel.org/bant/catalog
-// @version     1.38.1
+// @version     1.39
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
@@ -147,9 +147,9 @@ if (!flagOption || flagOption === "" || flagOption === "undefined") {
 
 setup.setupSetting();
 GM_addStyle(".flag { display:inline-block; width:16px; height:11px; position:relative; top:1px; background-image:url(\'" + flagReplaceUrl + "flagsheets/" + flagOption + ".png" + "\') !important; background-repeat: no-repeat;}" +
-			".flag-a1 { background-position:-32px -176px !important; }" +
-			".flag-a2 { background-position:-48px -176px !important; }" +
-			".flag-ap { background-position:-64px -176px !important; }");
+			".flag-a1 { background-position:-48px -176px !important; }" +
+			".flag-a2 { background-position:-64px -176px !important; }" +
+			".flag-ap { background-position:-80px -176px !important; }");
 parseA1A2Posts();
 var address = window.location.href;
 if (address.indexOf("4cdn.org/image/country") > -1) {
