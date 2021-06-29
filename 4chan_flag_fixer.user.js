@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        4chan Flag Fixer
-// @namespace   flagfixer
+// @name        flags-but-better
+// @namespace   flags-but-better
 // @description Because Hiroshimoot keeps using old flags
 // @include     http*://boards.4chan.org/int/*
 // @include     http*://boards.4chan.org/sp/*
